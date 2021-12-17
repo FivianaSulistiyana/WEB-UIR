@@ -94,3 +94,11 @@ th,td {
 tr:hover {
     background-color: #A58FAA;
 }
+
+.footer {
+    background-color: #A0937D;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
