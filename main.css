@@ -76,3 +76,21 @@ p{
     margin: 0;
     padding: 0;
 }
+
+table, tr, td {
+    border: 1px solid #907FA4;
+}
+table {
+    max-width: 500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #A58FAA;
+}
