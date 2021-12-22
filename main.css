@@ -50,7 +50,7 @@ p{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(100, 177, 228);
+    background-color: rgb(148, 194, 224);
     position: sticky;
     top: 0;
 
@@ -116,4 +116,11 @@ tr:hover {
 .content-form {
     max-width: 70%;
     margin: auto;
+}
+.form-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-bottom: 100px;
 }
