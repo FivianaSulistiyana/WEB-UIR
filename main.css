@@ -15,7 +15,7 @@ h1, h2, h3 {
 
 }
 ol{
-    display: :block;
+    display: block;
     max-width: 500px;
     margin-top: 0;
     margin-right: auto;
@@ -174,4 +174,35 @@ button, submit {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 200px;
+}
+.sidebar li :hover{
+    background-color: #555;
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 'side';
+    margin-bottom: 100px;
+}
+.grid-container img{
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.article-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
