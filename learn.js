@@ -14,7 +14,8 @@
     window.alert('Angka favorit saya adalah:'+myNumber)
     window.alert(`Angka favorit saya adalah:${myNumber}`)
 
-    let x = 8
+//menampilkan variable informasi ke console
+let x = 8
 let y = 4
 console.log(x, y)
 console.log('x + y =', x + y)
@@ -26,3 +27,16 @@ console.log('x++ =', x++)
 console.log('++x =', ++x)
 console.log('x-- =', x--)
 console.log('--x =', --x)
+
+//menampilakn operasi perbandingan ke console
+let a = 8
+let b = 4
+console.log(a, b)
+console.log('a > b =', a > b)
+console.log('a < b =', a < b)
+console.log('a >= b =', a >= b)
+console.log('a <= b =', a <= b)
+console.log('a == b =', a == b)
+console.log('a != b =', a != b)
+console.log('a === b =', a === b)
+console.log('a !== b =', a !== b)
