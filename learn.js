@@ -75,3 +75,26 @@ function vol_balok(panjang, lebar, tinggi){
 }
 var volume = vol_balok(4,6,5);
 console.log("Volume Balok = " + volume);
+
+//Menampilkan array dengan list buah
+var fruits = ["Banana", "Orange", "Apple", "Manggo"]; 
+
+//mengganti index 1
+var index = fruits.indexOf("Orange");
+
+if (~index){
+    fruits[index] = "Cerry";
+}
+
+//metode yang diterapkan
+fruits.push("Kiwi");
+fruits.pop();
+fruits.unshift("Strawberry");
+fruits.shift();
+fruits.sort();
+fruits.reverse();
+
+//menampilkan
+console.log(fruits);
+console.log(fruits.length);
+
