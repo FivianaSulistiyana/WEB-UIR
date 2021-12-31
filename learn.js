@@ -98,3 +98,30 @@ fruits.reverse();
 console.log(fruits);
 console.log(fruits.length);
 
+let person = {
+    id : 2110188,
+    firsName : "Fiviana",
+    lastName :"Sulistiyana",
+    Unur :20,
+    jurusan : "Teknik Infromatika",
+    fullName : function(){
+        return this.firsName + " " + this.lastName;
+    }
+};
+
+//dot notation
+console.log(person.firsName);
+console.log(person.lastName);
+console.log(person.id);
+console.log(person.umur);
+console.log(person.jurusan);
+console.log(person.fullName());
+
+//bracket notation
+console.log(person["id"]);
+console.log(person["firsName"]);
+console.log(person["lastName"]);
+console.log(person[ "umur"]);
+console.log(person[ "jurusan"]);
+console.log(person["fullName"]());
+
